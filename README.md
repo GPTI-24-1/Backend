@@ -27,4 +27,4 @@ Deben ser en este mismo orden, para evitar errores en las migraciones.
 ### Shops
 - `yarn sequelize-cli model:generate --name Shops --attributes name:string,description:string,phone:integer,address:string,link_address:string,latitude:float,longitude:float`
 ### Likes [Relacion N:N]
-- `yarn sequelize-cli model:generate --name Likes --attributes user_id:integer,course_id:integer,role:integer`
+- `yarn sequelize-cli model:generate --name Likes --attributes rut:integer,shop_id:integer`

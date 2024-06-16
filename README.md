@@ -28,3 +28,6 @@ Deben ser en este mismo orden, para evitar errores en las migraciones.
 - `yarn sequelize-cli model:generate --name Shops --attributes name:string,description:string,phone:integer,address:string,link_address:string,latitude:float,longitude:float`
 ### Likes [Relacion N:N]
 - `yarn sequelize-cli model:generate --name Likes --attributes rut:integer,shop_id:integer`
+
+<!-- Colocamos la imagen de assets/GPTI.jpg -->
+![GPTI](./assets/GPTI.jpg)

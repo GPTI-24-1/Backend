@@ -1,0 +1,39 @@
+{
+  "name": "Backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "repository": "https://github.com/GPTI-24-1/Backend.git",
+  "author": "rodrigoogalde <rjogalde@uc.cl>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.15.3",
+    "nodemon": "^3.1.3",
+    "@koa/cors": "^4.0.0",
+    "and": "^0.0.3",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^9.0.0",
+    "koa-body": "^6.0.1",
+    "koa-bodyparser": "^4.4.0",
+    "koa-jwt": "^4.0.4",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^12.0.0",
+    "pg": "^8.11.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.1",
+    "sequelize-cli": "^6.6.0"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy": "node start.js",
+    "db:migrate": "sequelize db:migrate",
+    "db:migrate:undo": "sequelize db:migrate:undo:all",
+    "db:seed": "sequelize db:seed:all",
+    "db:seed:undo": "sequelize db:seed:undo:all",
+    "db:drop": "sequelize db:drop",
+    "db:create": "sequelize db:create",
+    "db:reset": "run-s db:drop db:create"
+  }
+}

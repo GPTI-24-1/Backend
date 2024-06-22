@@ -11,15 +11,15 @@ router.post('authentication.singup', '/singup', async (ctx) => {
   const authInfo = ctx.request.body;
 
   let user = await ctx.orm.User.findOne({ where: { mail: authInfo.mail } });
-  const username = await ctx.orm.User.findOne({ where: { username: authInfo.username } });
+  const rut = await ctx.orm.User.findOne({ where: { rut: authInfo.rut } });
 
   if (user) {
     ctx.body = { error: `Mail '${authInfo.mail}' already in use` };
     ctx.status = 400;
     return;
   }
-  if (username) {
-    ctx.body = { error: `Username '${authInfo.username}' already in use` };
+  if (rut) {
+    ctx.body = { error: `rut '${authInfo.rut}' already in use` };
     ctx.status = 400;
     return;
   }
@@ -34,7 +34,7 @@ router.post('authentication.singup', '/singup', async (ctx) => {
     const hashPassword = await bcrypt.hash(authInfo.password, saltRounds);
 
     user = await ctx.orm.User.create({
-      username: authInfo.username,
+      rut: authInfo.rut,
       mail: authInfo.mail,
       password: hashPassword,
     });
@@ -45,7 +45,7 @@ router.post('authentication.singup', '/singup', async (ctx) => {
   }
   ctx.body = {
     userId: user.id,
-    username: user.username,
+    rut: user.rut,
     mail: user.mail,
   };
   ctx.status = 201;
@@ -70,7 +70,7 @@ router.post('authentication', '/login', async (ctx) => {
   const validPassword = await bcrypt.compare(authInfo.password, user.password);
   if (validPassword) {
     ctx.body = {
-      username: user.username,
+      rut: user.rut,
       mail: user.mail,
     };
     ctx.status = 200;
@@ -90,7 +90,7 @@ router.post('authentication', '/login', async (ctx) => {
   );
   ctx.body = {
     userId: user.id,
-    username: user.username,
+    rut: user.rut,
     access_token: token,
     token_type: 'Bearer',
     expires_in: expirationTime,

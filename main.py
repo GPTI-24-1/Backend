@@ -133,12 +133,8 @@ data = {
 # Crear DataFrame
 df_new = pd.DataFrame(data)
 
-# Guardar en un archivo CSV
-csv_path = 'region_metropolitana_santiago_extended_v3.csv'
-
 # Combinar con los DataFrames anteriores y guardar
 df_combined_v3 = pd.concat([df_combined_v2, df_new], ignore_index=True)
-df_combined_v3.to_csv(csv_path, index=False)
 
 
 

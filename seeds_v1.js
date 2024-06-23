@@ -1,6 +1,6 @@
-'use strict'
 
-/** @type {import('sequelize-cli').Migration} */
+'use strict';
+
 module.exports = {
   up: (queryInterface, Sequelize) => {
     return queryInterface.bulkInsert('Shops', [
@@ -11,7 +11,7 @@ module.exports = {
         ciudad: 'VITACURA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -20,7 +20,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -29,7 +29,7 @@ module.exports = {
         ciudad: 'PUDAHUEL',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -38,7 +38,7 @@ module.exports = {
         ciudad: 'TALAGANTE',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -47,7 +47,7 @@ module.exports = {
         ciudad: 'LAS CONDES',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -56,7 +56,7 @@ module.exports = {
         ciudad: 'QUINTA NORMAL',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -65,7 +65,7 @@ module.exports = {
         ciudad: 'MAIPU',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -74,7 +74,7 @@ module.exports = {
         ciudad: 'QUILICURA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -83,7 +83,7 @@ module.exports = {
         ciudad: 'MAIPU',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -92,7 +92,7 @@ module.exports = {
         ciudad: 'PUENTE ALTO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -101,7 +101,7 @@ module.exports = {
         ciudad: 'EL BOSQUE',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -110,7 +110,7 @@ module.exports = {
         ciudad: 'INDEPENDENCIA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -119,7 +119,7 @@ module.exports = {
         ciudad: 'CERRO NAVIA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -128,7 +128,7 @@ module.exports = {
         ciudad: 'SAN RAMON',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -137,7 +137,7 @@ module.exports = {
         ciudad: 'LA PINTANA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -146,7 +146,7 @@ module.exports = {
         ciudad: 'SAN JOAQUIN',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -155,7 +155,7 @@ module.exports = {
         ciudad: 'RECOLETA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -164,7 +164,7 @@ module.exports = {
         ciudad: 'RENCA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -173,7 +173,7 @@ module.exports = {
         ciudad: 'PUDAHUEL',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ALVI',
@@ -182,7 +182,7 @@ module.exports = {
         ciudad: 'PUENTE ALTO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'APPIO GOURMET',
@@ -191,7 +191,7 @@ module.exports = {
         ciudad: 'RECOLETA',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'BENAT',
@@ -200,7 +200,7 @@ module.exports = {
         ciudad: 'PROVIDENCIA',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'BERRY NATURAL SPA',
@@ -209,7 +209,7 @@ module.exports = {
         ciudad: 'HUECHURABA',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'CANASTA RAICES SANAS',
@@ -218,7 +218,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'CHILE SIN GLUTEN',
@@ -227,7 +227,7 @@ module.exports = {
         ciudad: 'QUILICURA',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'Comercial Piwën SpA',
@@ -236,7 +236,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'Comercial Piwën SpA',
@@ -245,7 +245,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'Comercial Piwën SpA',
@@ -254,7 +254,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'Comercial Piwën SpA',
@@ -263,7 +263,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'CONFITERIA SAZIE',
@@ -272,7 +272,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'CUGAT',
@@ -281,7 +281,7 @@ module.exports = {
         ciudad: 'BUIN',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'DULCE POLA',
@@ -290,7 +290,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO VERDE',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'Ecotienda PEWEN',
@@ -299,7 +299,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'EL BODEGUERO',
@@ -308,7 +308,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -317,7 +317,7 @@ module.exports = {
         ciudad: 'CALERA DE TANGO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -326,7 +326,7 @@ module.exports = {
         ciudad: 'CALERA DE TANGO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -335,7 +335,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -344,7 +344,7 @@ module.exports = {
         ciudad: 'SAN JOAQUIN',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -353,7 +353,7 @@ module.exports = {
         ciudad: 'SAN MIGUEL',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -362,7 +362,7 @@ module.exports = {
         ciudad: 'PROVIDENCIA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -371,7 +371,7 @@ module.exports = {
         ciudad: 'MELIPILLA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -380,7 +380,7 @@ module.exports = {
         ciudad: 'PEÑALOLEN',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -389,7 +389,7 @@ module.exports = {
         ciudad: 'PAINE',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -398,7 +398,7 @@ module.exports = {
         ciudad: 'CERRILLOS',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -407,7 +407,7 @@ module.exports = {
         ciudad: 'LA FLORIDA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -416,7 +416,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -425,7 +425,7 @@ module.exports = {
         ciudad: 'PEDRO AGUIRRE CERDA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -434,7 +434,7 @@ module.exports = {
         ciudad: 'CERRILLOS',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -443,7 +443,7 @@ module.exports = {
         ciudad: 'PROVIDENCIA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -452,7 +452,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -461,7 +461,7 @@ module.exports = {
         ciudad: 'LA CISTERNA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -470,7 +470,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -479,7 +479,7 @@ module.exports = {
         ciudad: 'LA CISTERNA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -488,7 +488,7 @@ module.exports = {
         ciudad: 'SAN BERNARDO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
@@ -497,16 +497,16 @@ module.exports = {
         ciudad: 'LA CISTERNA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'ERBI',
-        direccion: "AMBROSIO O'HIGGINS 1595",
+        direccion: 'AMBROSIO O\'HIGGINS 1595',
         comuna: 'CURACAVI',
         ciudad: 'CURACAVI',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'FLORIDA NATURALS - ASUR',
@@ -515,7 +515,7 @@ module.exports = {
         ciudad: 'LAMPA',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'FRESH EXPRESS',
@@ -524,61 +524,61 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
-        comercio: "JUMBO - 'Mundo Bionatura'",
+        comercio: 'JUMBO - \'Mundo Bionatura\'',
         direccion: 'PIE ANDINO 4770 LOCAL J958',
         comuna: 'LA DEHESA',
         ciudad: 'LA DEHESA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
-        comercio: "JUMBO - 'Mundo Bionatura'",
+        comercio: 'JUMBO - \'Mundo Bionatura\'',
         direccion: 'SANCHEZ FONTECILLA 12000',
         comuna: 'PEÑALOLEN',
         ciudad: 'PEÑALOLEN',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
-        comercio: "JUMBO - 'Mundo Bionatura'",
+        comercio: 'JUMBO - \'Mundo Bionatura\'',
         direccion: 'JOSE PEDRO ALESSANDRI 1166',
         comuna: 'NUÑOA',
         ciudad: 'NUÑOA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
-        comercio: "JUMBO - 'Mundo Bionatura'",
+        comercio: 'JUMBO - \'Mundo Bionatura\'',
         direccion: 'AMERICO VESPUCIO 1001',
         comuna: 'MAIPU',
         ciudad: 'MAIPU',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
-        comercio: "JUMBO - 'Mundo Bionatura'",
+        comercio: 'JUMBO - \'Mundo Bionatura\'',
         direccion: 'VICUÑA MACKENNA 6100',
         comuna: 'LA FLORIDA',
         ciudad: 'LA FLORIDA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
-        comercio: "JUMBO - 'Mundo Bionatura'",
+        comercio: 'JUMBO - \'Mundo Bionatura\'',
         direccion: 'EL LLANO SUBERCASEAUX 3519',
         comuna: 'SAN MIGUEL',
         ciudad: 'SAN MIGUEL',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -587,7 +587,7 @@ module.exports = {
         ciudad: 'SAN BERNARDO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -596,7 +596,7 @@ module.exports = {
         ciudad: 'PUENTE ALTO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -605,7 +605,7 @@ module.exports = {
         ciudad: 'MACUL',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -614,7 +614,7 @@ module.exports = {
         ciudad: 'LA GRANJA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -623,7 +623,7 @@ module.exports = {
         ciudad: 'LA FLORIDA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -632,7 +632,7 @@ module.exports = {
         ciudad: 'PUENTE ALTO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -641,7 +641,7 @@ module.exports = {
         ciudad: 'CERRILLOS',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -650,7 +650,7 @@ module.exports = {
         ciudad: 'ESTACION CENTRAL',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -659,7 +659,7 @@ module.exports = {
         ciudad: 'LA FLORIDA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -668,7 +668,7 @@ module.exports = {
         ciudad: 'SAN BERNARDO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -677,7 +677,7 @@ module.exports = {
         ciudad: 'RECOLETA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -686,7 +686,7 @@ module.exports = {
         ciudad: 'MAIPU',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -695,7 +695,7 @@ module.exports = {
         ciudad: 'SAN JOAQUIN',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -704,7 +704,7 @@ module.exports = {
         ciudad: 'PUDAHUEL',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -713,7 +713,7 @@ module.exports = {
         ciudad: 'COLINA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -722,7 +722,7 @@ module.exports = {
         ciudad: 'LA FLORIDA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -731,7 +731,7 @@ module.exports = {
         ciudad: 'LO PRADO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -740,7 +740,7 @@ module.exports = {
         ciudad: 'PEÑAFLOR',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -749,7 +749,7 @@ module.exports = {
         ciudad: 'BUIN',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -758,7 +758,7 @@ module.exports = {
         ciudad: 'LA CISTERNA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -767,7 +767,7 @@ module.exports = {
         ciudad: 'SAN BERNARDO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'MAYORISTA 10',
@@ -776,7 +776,7 @@ module.exports = {
         ciudad: 'ESTACION CENTRAL',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'NATURAL SELF',
@@ -785,7 +785,7 @@ module.exports = {
         ciudad: 'PEÑALOLEN',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'NUTTYNUTS HUERFANOS',
@@ -794,7 +794,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'PASAS Y PERAS',
@@ -803,7 +803,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO VERDE',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'PIWËN FRUTOS SECOS',
@@ -812,7 +812,7 @@ module.exports = {
         ciudad: 'LAS CONDES',
         tipo_establecimiento: 'PUNTO NATURAL',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'PLANTA MAESTRA',
@@ -821,7 +821,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO VERDE',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'PLANTA MAESTRA',
@@ -830,7 +830,7 @@ module.exports = {
         ciudad: 'PROVIDENCIA',
         tipo_establecimiento: 'PUNTO VERDE',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'PLANTA MAESTRA',
@@ -839,7 +839,7 @@ module.exports = {
         ciudad: 'SANTIAGO',
         tipo_establecimiento: 'PUNTO VERDE',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'PLANTA MAESTRA',
@@ -848,7 +848,7 @@ module.exports = {
         ciudad: 'PROVIDENCIA',
         tipo_establecimiento: 'PUNTO VERDE',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'S10',
@@ -857,7 +857,7 @@ module.exports = {
         ciudad: 'SAN BERNARDO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'S10',
@@ -866,7 +866,7 @@ module.exports = {
         ciudad: 'PUDAHUEL',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
         comercio: 'S10 Gran Avenida',
@@ -875,75 +875,75 @@ module.exports = {
         ciudad: 'SAN MIGUEL',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
-        comercio: "SANTA ISABEL - 'Libres de'",
+        comercio: 'SANTA ISABEL - \'Libres de\'',
         direccion: 'VIRGINIA SUBERCASEAUX 447 LOCAL 6',
         comuna: 'PIRQUE',
         ciudad: 'PIRQUE',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
-        comercio: "SANTA ISABEL - 'Libres de'",
+        comercio: 'SANTA ISABEL - \'Libres de\'',
         direccion: 'ORIENTE AUTOPISTA LOS LIBERTADORES 22909 LOCAL 14',
         comuna: 'COLINA',
         ciudad: 'COLINA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
-        comercio: "SANTA ISABEL - 'Libres de'",
+        comercio: 'SANTA ISABEL - \'Libres de\'',
         direccion: 'VICUÑA MACKENNA 202',
         comuna: 'MELIPILLA',
         ciudad: 'MELIPILLA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
-        comercio: "SANTA ISABEL - 'Libres de'",
+        comercio: 'SANTA ISABEL - \'Libres de\'',
         direccion: 'EL GABINO 5830 LOCAL 2',
         comuna: 'LO BARNECHEA',
         ciudad: 'LO BARNECHEA',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
-        comercio: "SANTA ISABEL - 'Libres de'",
+        comercio: 'SANTA ISABEL - \'Libres de\'',
         direccion: 'CONSISTORIAL 2100',
         comuna: 'PEÑALOLEN',
         ciudad: 'PEÑALOLEN',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
-        comercio: "SANTA ISABEL - 'Libres de'",
+        comercio: 'SANTA ISABEL - \'Libres de\'',
         direccion: 'ALMIRANTE RIVERO 2105',
         comuna: 'SAN BERNARDO',
         ciudad: 'SAN BERNARDO',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
+        updatedAt: new Date()
       },
       {
-        comercio: "SANTA ISABEL - 'Libres de'",
-        direccion: "LIBERTADOR BERNARDO O'HIGGINS 2001 LOCAL COMERCIAL 100",
+        comercio: 'SANTA ISABEL - \'Libres de\'',
+        direccion: 'LIBERTADOR BERNARDO O\'HIGGINS 2001 LOCAL COMERCIAL 100',
         comuna: 'TALAGANTE',
         ciudad: 'TALAGANTE',
         tipo_establecimiento: 'SUPERMERCADOS',
         createdAt: new Date(),
-        updatedAt: new Date(),
-      },
-    ])
+        updatedAt: new Date()
+      }
+    ]);
   },
 
   down: (queryInterface, Sequelize) => {
-    return queryInterface.bulkDelete('Shops', null, {})
-  },
-}
+    return queryInterface.bulkDelete('Shops', null, {});
+  }
+};

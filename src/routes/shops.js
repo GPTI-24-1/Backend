@@ -6,7 +6,18 @@ const router = new Router();
 
 router.get('shops.list', '/', async (ctx) => {
   try {
-    const shops = await ctx.orm.Shops.findAll();
+    const { comuna, tipo_establecimiento } = ctx.query;
+    const where = {};
+
+    if (comuna) {
+      where.comuna = comuna;
+    }
+
+    if (tipo_establecimiento) {
+      where.tipo_establecimiento = tipo_establecimiento;
+    }
+
+    const shops = await ctx.orm.Shops.findAll({ where });
     ctx.body = shops;
     ctx.status = 200;
   } catch (error) {

@@ -3,11 +3,10 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const router = new Router();
-const { Shops } = require('../models');
 
 router.get('shops.list', '/', async (ctx) => {
   try {
-    const shops = await Shops.findAll();
+    const shops = await ctx.orm.Shops.findAll();
     ctx.body = shops;
     ctx.status = 200;
   } catch (error) {
@@ -18,7 +17,7 @@ router.get('shops.list', '/', async (ctx) => {
 
 router.get('shops.show', '/:id', async (ctx) => {
   try {
-    const shop = await Shops.findOne({ where: { id: ctx.params.id } });
+    const shop = await ctx.orm.Shops.findOne({ where: { id: ctx.params.id } });
     if (shop) {
       ctx.body = shop;
       ctx.status = 200;
@@ -34,7 +33,7 @@ router.get('shops.show', '/:id', async (ctx) => {
 
 router.post('shops.create', '/', async (ctx) => {
   try {
-    const shop = await Shops.create(ctx.request.body);
+    const shop = await ctx.orm.Shops.create(ctx.request.body);
     ctx.body = shop;
     ctx.status = 201;
   } catch (error) {
@@ -45,11 +44,11 @@ router.post('shops.create', '/', async (ctx) => {
 
 router.put('shops.update', '/:id', async (ctx) => {
   try {
-    const [updated] = await Shops.update(ctx.request.body, {
+    const [updated] = await ctx.orm.Shops.update(ctx.request.body, {
       where: { id: ctx.params.id }
     });
     if (updated) {
-      const updatedShop = await Shops.findOne({ where: { id: ctx.params.id } });
+      const updatedShop = await ctx.orm.Shops.findOne({ where: { id: ctx.params.id } });
       ctx.body = updatedShop;
       ctx.status = 200;
     } else {
@@ -64,7 +63,7 @@ router.put('shops.update', '/:id', async (ctx) => {
 
 router.delete('shops.delete', '/:id', async (ctx) => {
   try {
-    const deleted = await Shops.destroy({
+    const deleted = await ctx.orm.Shops.destroy({
       where: { id: ctx.params.id }
     });
     if (deleted) {
